@@ -1,11 +1,119 @@
 <html>
-    <head>
-        <title>Index page</title>
 
-    </head>
-    <body>
-        <h1>hello students</h1>
-        
+<head>
+    <style>
+        #box1 {
+            width: 500px;
+            height: 300px;
+            border: 1px solid black;
+            margin-left: 500px;
+        }
 
-    </body>
+        #box2 {
+            height: 100px;
+            background-color: #ff9933;
+        }
+
+        #box3 {
+            height: 100px;
+            text-align: center;
+
+        }
+
+        #box4 {
+            height: 100px;
+            background-color: #138801;
+        }
+
+        #box5 {
+            height: 350px;
+            width: 5px;
+            background-color: darkred;
+            margin-left: 500px;
+        }
+
+        #box6 {
+            height: 30px;
+            width: 100px;
+            background-color: brown;
+            margin-left: 456px;
+            /* margin-top: 456px; */
+        }
+
+        #box7 {
+            height: 30px;
+            width: 150px;
+            background-color: brown;
+            margin-left: 430px;
+            /* margin-top: 456px; */
+        }
+
+        #box8 {
+            height: 30px;
+            width: 200px;
+            background-color: brown;
+            margin-left: 405px;
+            /* margin-top: 456px; */
+        }
+
+        img {
+            width: 100px;
+            animation-name: xyz;
+            animation-timing-function: linear;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes abc {
+            0% {
+                transform: translate(0px, 0px);
+            }
+
+            25% {
+                transform: translate(500px, 0px);
+            }
+
+            50% {
+                transform: translate(500px, 500px);
+            }
+
+            75% {
+                transform: translate(0px, 500px);
+            }
+
+            100% {
+                transform: translate(0px, 0px);
+            }
+        }
+
+        @keyframes xyz {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <div id="box1"> 
+        <div id="box2"></div>
+        <div id="box3">
+            <img src="https://cdn.pixabay.com/photo/2023/06/23/17/47/ashok-chakra-8083914_1280.png" />
+        </div>
+        <div id="box4"></div>
+    </div>
+    <div id="box5">
+    </div>
+    <div id="box6"></div>
+    <div id="box7"></div>
+    <div id="box8"></div>
+    
+</body>
+
 </html>
